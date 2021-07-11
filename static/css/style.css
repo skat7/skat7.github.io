@@ -359,16 +359,16 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
+.skills_html{
   width: 95%;
 }
-.skills__css{
+.skills_css{
   width: 85%;
 }
-.skills__js{
+.skills_js{
   width: 65%;
 }
-.skills_python{
+.skills_py{
   width: 87%;
 }
 .skills_cpp{
@@ -387,7 +387,7 @@ img{
   width: 65%;
 }
 
-.skills__img{
+.skills_img{
   border-radius: .5rem;
 }
 
