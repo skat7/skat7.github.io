@@ -288,7 +288,8 @@ img{
 
 }
 #contactbtn{
-  background-image: var(--border-pic-1)
+  background-image: url('../img/border.jpg'); 
+
 }
 
 /* ===== ABOUT =====*/
