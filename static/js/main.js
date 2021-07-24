@@ -153,7 +153,7 @@ function dragElement(elmnt) {
 
 let scrollerID;
 let paused = true;
-let speed = 2; // 1 - Fast | 2 - Medium | 3 - Slow
+let speed = 1; // 1 - Fast | 2 - Medium | 3 - Slow
 let interval = speed * 5;
 
 function startScroll(){
@@ -173,7 +173,7 @@ function stopScroll() {
 
 document.body.addEventListener('keypress', function (event)
 {
-    if (event.which == 19 || event.keyCode == 19) {
+    if (event.which == 83 || event.keyCode == 83) {
         // It's the 'Enter' key
         if(paused == true) {
             scrollerID = startScroll();
