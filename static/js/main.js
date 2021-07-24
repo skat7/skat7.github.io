@@ -149,13 +149,7 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
-/*===== SCROLL REVEAL ANIMATION =====*/
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 2000,
-    reset: true
-});
+
 
 let scrollerID;
 let paused = true;
@@ -192,7 +186,13 @@ document.body.addEventListener('keypress', function (event)
     }
 }, true);
 
-
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+});
 
 setTimeout(function(){
 
