@@ -173,7 +173,7 @@ function stopScroll() {
 
 document.body.addEventListener('keypress', function (event)
 {
-    if (event.which == 40 || event.keyCode == 40) {
+    if (event.which == 17 || event.keyCode == 17) {
         // It's the 'Enter' key
         if(paused == true) {
             scrollerID = startScroll();
